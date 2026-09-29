@@ -1,7 +1,3 @@
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
 [project]
 name = "leginoncli"
 version = "2025.09.08"
@@ -13,7 +9,6 @@ authors = [
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: Apache Software License",
     "Operating System :: POSIX :: Linux",
 ]
 dependencies = [
@@ -26,3 +21,6 @@ requires-python = ">=3.9"
 [project.urls]
 Homepage = "https://github.com/nysbc/leginon-cli/"
 Issues = "https://github.com/nysbc/leginon-cli/issues"
+
+[project.scripts]
+leginon-cli = "leginoncli.cli:main"

@@ -38,6 +38,3 @@ def main():
         search_by_project_name(args.projectname)
     if "sessionname" in dir(args):
         search_by_session_name(args.sessionname)
-
-if __name__ == '__main__':
-    main()
