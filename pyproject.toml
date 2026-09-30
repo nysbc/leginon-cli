@@ -1,6 +1,6 @@
 [project]
 name = "leginoncli"
-version = "2025.09.08"
+version = "2026.09.30"
 readme = "README.md"
 description = "A command line interface that gives microscope operators the ability to add users to projects and move sessions between projects."
 license = "Apache-2.0"
