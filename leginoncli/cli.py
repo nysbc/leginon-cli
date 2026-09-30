@@ -48,7 +48,7 @@ def main():
     elif "projectname" in dir(args):
         project_query_results=search_by_project_name(args.projectname)
         if project_query_results:
-            print_session_query_results(project_query_results)
+            print_project_query_results(project_query_results)
         else:
             print("No matching projects for %s." % args.projectname)
     elif "sessionname" in dir(args):
